@@ -1,12 +1,15 @@
-﻿using System;
+﻿// <copyright file="Program.cs" company="Alyona">
+// Copyright (c) 2021 All Rights Reserved
+// </copyright>
 
 namespace Algorithm
 {
-   class Program
+   public class Program
    {
-      static void Main(string[] args)
+      public static void Main()
       {
-         Console.WriteLine("Hello World!");
+         var user = new User();
+         user.Authorization();
       }
    }
 }
